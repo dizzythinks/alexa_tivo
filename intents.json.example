@@ -1,0 +1,18 @@
+{
+    "intents": [{
+        "intent": "PauseIntent"
+    }, 
+    {
+        "intent": "PlayIntent"
+    },
+    {
+        "intent": "GuideIntent"
+    }
+    {
+        "intent": "LiveTVIntent"
+    }
+    {
+        "intent": "InfoIntent"
+    },
+]
+}
