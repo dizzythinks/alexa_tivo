@@ -3,6 +3,8 @@ import tivo
 from flask import current_app
 from flask_ask import Ask, statement, question, session
 
+tivo_address = current_app.config['TIVO_ADDRESS']
+
 
 @ask.launch
 def tivo_control():
